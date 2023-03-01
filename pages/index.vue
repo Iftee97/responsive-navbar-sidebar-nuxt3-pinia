@@ -1,8 +1,8 @@
 <template>
-  <div class="max-w-[1440px] mx-auto px-[40px] py-[20px]">
+  <div>
     <HomePageContent 
       headingText="Hello Nuxt3" 
-      subHeadingText="Lorem ipsum dolor sit amet consectetur adipisicing elit!" 
+      subHeadingText="Lorem ipsum dolor sit amet consectetur adipisicing elit!"
     />
     <div class="flex items-center justify-center gap-4 mb-4">
       <button 
@@ -28,15 +28,15 @@
         </span>
       </p>
     </span>
-    <div class="text-center mx-auto flex items-center gap-4">
-      <span class="text-xl">
+    <!-- <div class="text-center mx-auto flex items-center justify-between">
+      <span class="text-xl select-none">
         showSidebar: {{ appStore.showSidebar }}
       </span>
       <span class="inline-block mb-4 cursor-pointer mt-4" @click="appStore.toggleSidebar">
         <Hamburger v-if="appStore.showSidebar" />
         <Cross v-else />
       </span>
-    </div>
+    </div> -->
   </div>
 </template>
 
