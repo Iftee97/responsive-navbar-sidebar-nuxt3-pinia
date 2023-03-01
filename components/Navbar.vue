@@ -2,7 +2,7 @@
   <nav class="flex items-center justify-between px-8 py-4 bg-slate-50 border-b border-[#cccccc4d]">
     <NuxtLink to="/" class="inline-block">
       <span class="font-semibold text-[24px]">
-        LogoLink
+        Nuxt3
       </span>
     </NuxtLink>
     <ul class="md:hidden flex items-center gap-4">

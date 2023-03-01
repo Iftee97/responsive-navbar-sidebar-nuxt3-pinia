@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between px-8 py-4 bg-slate-50 border-b border-[#cccccc4d]">
         <NuxtLink to="/" @click="appStore.toggleSidebar">
           <span class="font-semibold text-[24px]">
-            LogoLink
+            Nuxt3
           </span>
         </NuxtLink>
         <button 
