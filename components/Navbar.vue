@@ -9,7 +9,6 @@
       <li 
         v-for="(link, index) in navLinks" 
         :key="index" 
-        @click="appStore.toggleSidebar" 
         class="text-[18px] font-medium"
       >
         <NuxtLink :to="link.path">
