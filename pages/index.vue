@@ -18,16 +18,18 @@
         decrease count
       </button>
     </div>
-    <span class="border border-[#555] inline-block p-3 mx-auto mb-4">
-      <p class="text-[#000] text-lg">
-        <span class="font-medium">
-          Count:
-        </span> 
-        <span class="font-medium">
-          {{ appStore.count }}
-        </span>
-      </p>
-    </span>
+    <div class="flex items-center justify-center">
+      <span class="border border-[#555] inline-block p-3 mx-auto mb-4">
+        <p class="text-[#000] text-lg">
+          <span class="font-medium">
+            Count:
+          </span> 
+          <span class="font-medium">
+            {{ appStore.count }}
+          </span>
+        </p>
+      </span>
+    </div>
     <!-- <div class="text-center mx-auto flex items-center justify-between">
       <span class="text-xl select-none">
         showSidebar: {{ appStore.showSidebar }}
